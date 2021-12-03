@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/graingert-wow/1.2.0/wow.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mercedes</title>
+</head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="index.html"><img class="logo" src="M-img/m-logo.jpg"> </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="About us.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="service.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about blogs.html">blogs</a>
+                </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#mymodal" role="button" class="btn btn-primary" data-toggle="modal">Book Now</a>
+                </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            
+            <section>
+              <div class="modal " tabindex="-1" id="mymodal">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h3 class="modal-title">Book An Appointment</h3>
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <div class="modal-body">
+                              <form>
+                                  <div class="form-group">
+                                      <label><i class="fa fa-user fa-2x"></i>Username: </label>
+                                      <input type="text" name="uname" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                      <label><i class="fa fa-envelope fa-2x"></i>Email: </label>
+                                      <input type="Email" name="email" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                      <label><i class="fa fa-phone fa-2x"></i>Number: </label>
+                                      <input type="text" name="number" class="form-control">
+                                  </div>
+                                  <div class="form-group">
+                                      <label><i class="fa fa-comment fa-2x"></i>Message: </label>
+                                      <input type="text" name="number" class="form-control">
+                                  </div>
+                              </form>
+                          <div class="modal-footer ">
+                              <button type="submit" class="btn btn-outline-danger">SEND MESSAGE</button>
+                              <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Close</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+             <!-----------------------//nav---------------------------------->
+
+        <div class="container-fluid mt-5">
+        <div class="tab mt-5">
+            <button class="tablinks" onclick="openCity(event, 'A-class')" id="defaultOpen" >A-Class</button>
+            <button class="tablinks" onclick="openCity(event, 'C-class')">C-Class</button>
+            <button class="tablinks" onclick="openCity(event, 'E-class')">E-Class</button>
+            <button class="tablinks" onclick="openCity(event, 'GLA')">GLA</button>
+            <button class="tablinks" onclick="openCity(event, 'GLC')">GLC</button>
+            <button class="tablinks" onclick="openCity(event, 'G-class')">G-Class</button>
+        </div>
+    
+        <div id="A-class" class="tabcontent mt-3">
+            <h3>A Class</h3>
+            <h4>The Limousine. Now also as an A-Class Limousine.</h4>
+                    <img src="M-img/modal/a class.jpg" alt=""class="img-fluid animated wow slideInRight" data-wow-delay="1s">
+           <p>The A-Class Limousine draws inspiration from our childhood dreams and presents a completely new design, one that heralds a new generation of automobiles. The profile is so dynamic yet timelessly elegant.
+            It’s time to take your dreams for a drive in the new A-Class Limousine with Mercedes me connect and MBUX.</p>
+            <p>More spacious feeling.
+              Formal events, or weekend getaways. Family gatherings, or date night. The all-new A-Class Limousine now lets you do more and be more.
+               Never be caught short on space as you keep collecting memories with every escapade in the new A-Class Limousine.</p>
+               <p>Knows the way home.
+                And your habits.
+                MBUX, the new Mercedes-Benz User Experience, introduces artificial intelligence into the A-Class Limousine. It learns more every day and, most importantly of all, gets to know its driver more and more. It can remember your favourite songs and the route to work. It then automatically adjusts the right radio station or 
+                shows you a faster way if your usual route is congested. All by itself and as a matter of course, if that is what you want.</p>
+        </div>
+        <div id="C-class" class="tabcontent mt-3">
+            <h3>C-Class</h3>
+            <h4>The C-Class. Never Stop Improving.</h4>
+            <img src="M-img/modal/c.jpg" alt=""class="img-fluid animated wow slideInRight" data-wow-delay="1s">
+            <p>It is not about being better than others. It is about getting better than you are. That is what counts. In sport as well as on the road. The C-Class is known for its perfect proportions, 
+                its comfort, its quality and its drive: to exceed itself every day, on every journey, over and over again.</p>
+               <p>On top form, when it matters.
+                 The sense of forward momentum in the new C-Class is plain to see the modified front end simply exudes dynamism and contemporary appeal. Depending on
+                  the precise specification, it features redesigned bumpers, gleaming chrome trim and stunning new LED headlamps. </p>
+                  <p>When it all feels perfect, there can only be one objective.
+                   To make it even better.
+                   Perfect training conditions await you in the new C-Class: the new steering wheel with Touch Control buttons along with,
+                    depending on the precise specification and larger displays including 
+                   a new-generation multimedia system, are state-of-the-art features that make operating the car a highly individual affair</p>
+        </div>
+        <div id="E-class" class="tabcontent mt-3">
+            <h3>E-Class</h3>
+            <h4>The C-Class. Never Stop Improving.</h4>
+            <img src="M-img/modal/d.jpg" alt=""class="img-fluid animated wow slideInRight" data-wow-delay="1s">
+            <p>New E, New Attitude.
+                The all-new Mercedes-Benz E-Class comes with stunningly elegant exteriors. With contemporary new headlights,
+                 power domes, and stylish bumper design. Its Exclusive and Expression variants come with 17" alloy wheels, while the 
+                 E350d comes with an AMG line, diamond grille, AMG bumpers,
+                 and sporty side skirts. And finally, the eye-catching 18" AMG alloys complete the all-new E-Class.</p>
+                 <p>Intelligence at its best.
+                  The reimagined cockpit of the E-Class features a contemporary beige steering wheel and an upgraded front touchpad.
+                   With MBUX NTG 6, the E-Class remembers everything; from your favourite routes to responding to your commands. Stay connected to your car from anywhere with Mercedes me connect, which is loaded with features like remote engine start, geofencing, and much more. Sit back and relax with the detachable rear 
+                  tablet and the rear AC console with stunning new trims. The AMG line brings you plush beige and blue upholstery as well.</p>
+                  <p>
+                    The new E-Class is practically unbeatable in matters of comfort. Air cooling, first-class sound provided by the Burmester®
+                     surround sound system or the ambient lighting sometimes make you forget that you are sitting in a car.</p>
+        </div>
+        <div id="GLA" class="tabcontent mt-3">
+            <h3>GLA</h3>
+            <h4>The all-new Mercedes-Benz GLA</h4>
+            <img src="M-img/modal/e.jpg" alt=""class="img-fluid animated wow slideInRight" data-wow-delay="1s">
+            <p>Fascinate the mind and the heart.
+                The all-new GLA with its expressive design meets innovative, pioneering technology. On the outside, typical off-road features with 
+                its broader track width at both front and rear and larger wheels showcase its elegant and expressive design.</p>
+                <p>Style makes a statement 
+                  More than an SUV. More than a coupé. More than ever before.
+                  
+                  Some personalities immediately make their mark. With their appearance. Their self-assurance. And their unique character. Much like the new GLC Coupé, which combines the merits
+                   of an SUV and a coupé like no other. In a style all of its own. More dynamic and sportier than ever. With wider aprons, new tailpipe trims and, 
+                   fitted as standard for the first time, MULTIBEAM LED with sophisticated light design.
+                   The host of new wheel designs take its unique sporty and elegant character to the highest level</p>
+        </div>
+        <div id="GLC" class="tabcontent mt-3">
+            <h3>GLC</h3>
+            <h4>The E-class The new E-Class LWB</h4>
+            <img src="M-img/modal/f.jpg" alt=""class="img-fluid animated wow slideInRight" data-wow-delay="1s">
+            <p>Hey Mercedes<br/>
+                A whole new way of operating a car. Simple. Intuitive. With words and touch. This is MBUX – the new Mercedes-Benz User Experience. The highlights: new digital displays and 
+                touch control elements, a natural speech recognition system plus the ability to adapt itself better to you each day.</p>
+                <p>Treat your eyes to something special.
+                  Nothing appeals to the eye more than an aura of strength and athleticism. The new GLC has a particularly sporty charisma.
+                   With its broader shoulders, integrated tailpipe trim and new rim designs, it conveys an even greater sense of power and 
+                   dominance. In addition, the new flattened tail lights feature LEDs as standard for the first time. A more striking radiator
+                    grille, more elegant
+                   chrome elements, and slimmer headlamps lend the front end of the new GLC an even more commanding SUV-style presence.</p>
+                   <p>A strong character with new facets.
+                    The new GLC is more intelligent, dynamic and self-assured than ever. With a fascinatingly cutting-edge operating
+                     system that adapts more accurately to your needs and preferences every day.
+                     With an even more expressive SUV design. And with comfort and safety systems that attend better than ever to you and your w</p>
+        </div>
+        <div id="G-class" class="tabcontent mt-3">
+            <h3>G-Class</h3>
+            <h4> The New G-Class
+                Stronger than time.</h4>
+            <img src="M-img/modal/g.jpg" alt=""class="img-fluid animated wow slideInRight" data-wow-delay="1s">
+            <p>State-of-the-art legend.
+                Welcome to the end of the world. The new G-Class is already there. It’s everywhere.
+                 Continuing the tradition of a vehicle built for the most extreme conditions. The G-Class feels different to 
+                 the mainstream, particularly in places where other vehicles dare not tread. 
+                As if these places were just made for it. Join us on a journey to the holy grail of mobility. Discover the new G-Class.</p>
+                  <p>Endless expanses.
+                    It is as if nature itself had designed the generous, spacious interior of the new G-Class. As a result,
+                     the vehicle guarantees maximum comfort even in the most uncomfortable environment. The new interior concept turns
+                      the G-Glass into a shining example of spaciousness and comfort for all occupants. 
+                    The interior design took a quantum leap forward as well. Those who love freedom and unusual design will find both here.</p>
+                    <p>Comfortably Exclusive.
+                      The G-Class knows no limits. Not even in the interior.
+                       While its outward appearance is hardly changed, the interior of the new G-Class has been transformed beyond recognition.</p>
+        </div>
+                    
+        <script>
+            function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+    
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+        </script>
+        </div>
+       
+    </body>
+</html>

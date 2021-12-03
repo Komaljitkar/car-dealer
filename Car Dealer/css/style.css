@@ -1,0 +1,527 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h2
+{
+    position: relative;
+    top:0px;
+    color: red;
+    font-size: 52px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;  
+    font-family: 'Poppins', sans-serif;
+}
+h2::before{
+    content:'';
+    width:80px;
+    height:3px;
+    background-color: red;
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+    right:0px;
+    margin: 0px auto;
+}
+h2 span{
+    color:darkviolet;
+}
+.navbar 
+{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-family: monospace;
+}
+.navbar ul li 
+{
+    padding: 0px 30px;
+    font-weight: bolder;
+}
+.navbar ul li a 
+{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.navbar-style 
+{
+    box-shadow: 0 5px 10px #efefef;
+}
+.logo 
+{
+    height: 48px;
+    padding: 2px 10px;
+}
+.navbar-toggler-icon
+{
+    background-color: darkviolet;
+}
+/*------//nav end--------*/
+.iconbar 
+{
+    position:fixed;
+    top:50%;
+    transform:translateY(-50%);
+    z-index: 9999;
+}
+.iconbar a 
+{
+    display: block;
+    text-align:center;
+    padding:15px;
+    font-size:20px;
+    transition: all 2s ease;
+    color:white;
+    margin:2px;
+}
+.facebook 
+{
+    background-color: #3B5998;
+}
+.twitter 
+{
+    background: #55ACEF;
+}
+.google 
+{
+    background-color: #dd4b3d;
+}
+.youtube
+ {
+    background: #bb0000;
+  }
+  .whatsapp {
+    background: rgb(43, 177, 64);
+}
+/*-----------------------------//end iconbar-----------------------------*/
+.btn 
+{
+    color:black;
+    font-weight: 500;
+}
+.carousel-item img
+{
+    height:100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.carousel-caption 
+{
+    top:25%;
+    left: 10%;
+}
+.carousel-caption h2 
+{
+    font-style: italic;
+    font-size: 45px;
+    color:red;
+    font-weight: bolder;
+    font-family: monospace;
+}
+.carousel-caption p 
+{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 500;
+    font-family: monospace;
+}
+/*----------//carosel-end-----------*/
+.about 
+{
+    background-color: rgb(31, 29, 29);
+}
+h1
+{
+    font-size: 52px;
+    margin:20px 0;
+    color: darkviolet;
+    text-align: center;
+    font-family: monospace;
+}
+p 
+{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 50px;
+    font-family: monospace;
+}
+.con 
+{
+    margin-left: 120px;
+}
+ .btn 
+{
+   margin: 10px;
+    width: 150px;
+    padding: 10px;
+    border-radius:15px;
+    background-color:darkviolet;
+    color: white;
+}
+.btn-first
+{
+    background-color: darkviolet;
+    color: white;
+}
+.btn-second
+{
+    background-color: darkviolet;
+    border:1px solid darkviolet;
+    color:white;
+}
+.btn:hover
+{
+    background-color: transparent;
+    border:1px solid darkviolet;
+    color:white;
+    transition:0.3s;
+}
+.text 
+{
+    color:white;
+}
+/*-------------//end--about-------------------*/
+.item
+{
+    background:black;
+    text-align: center;
+    border: 3px solid rgba(0,0,0,0.7);
+    padding: 20px 0px;
+    margin-top: 50px;
+    border-radius:30px;
+   box-shadow: 0px 0px 25px rgba(0,0,0,0.7);
+   color:white;
+   font-family: monospace;
+}
+.item .icon
+{
+    font-size: 40px;
+    color: darkblue;
+    width:100px;
+    height:60px;
+    border-radius:50%;
+    padding:4px 4px;
+    line-height: 60px;
+}
+.item h5 
+{
+    font-size: 30px;
+    color: darkviolet;
+    text-align: center;
+}
+
+/*----------------------//end services-----------------------*/
+.demo 
+{
+    width:100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:999;
+}
+.demo video 
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+.video-content 
+{
+    position: relative;
+    font-weight: bold;
+}
+.video-content h3 
+{
+    font-size: 50px;
+    margin-top: 20px;
+    font-style: italic;
+    text-align: center;
+    color:red;
+    font-weight: 500;
+    font-family: monospace;
+}
+.video-content p 
+{
+    font-size: 25px;
+    color:black;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+/*--------------------//end discover more------------------------*/
+.view-car
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),transparent),url("../M-img/cont.jpg");
+    width: 100%;
+    height:100vh;
+    position:relative;
+    background-size: cover;
+    background-position: center center;
+    color:white;
+    font-family: monospace;
+}
+.view-car .cta-content h3 
+{
+    font-size: 50px;
+    margin-top: 20px;
+    font-style: italic;
+    text-align: center;
+     color:red;
+     font-weight: 500;
+    font-family: monospace;
+}
+ .view-car .cta-content p 
+ {
+     color:white;
+     font-weight: 500;
+     margin-top: 10px;
+     font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: monospace;
+ }
+.view-car .txt 
+{
+    color:white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+
+}
+.view-car .sel 
+{
+    width: 100%;
+    height: 40px;
+}
+/*---------------------------------//end car-details------------------------------------------*/
+.car 
+{
+    background-image:linear-gradient(rgba(226, 108, 108, 0.5),rgba(226, 138, 138, 0.5)), url('../M-img/wall1.jpg');
+    width:100%;
+    height:100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    margin:10px;
+    padding: 10px;
+    font-family: monospace;
+}
+.car-1
+{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../M-img/wall8.jpg');
+    position: relative;
+    color:white;
+    margin:10px;
+    padding: 10px;
+    font-family: monospace;
+}
+.major-actions .btn-car
+{
+    background-color: red;
+    padding: 8px;
+    border-radius:10px;
+}
+.btn-car:hover 
+{
+    background-color: transparent;
+    border:1px solid red;
+}
+/*---------------------------//end gallery-------------------------------*/
+.contact 
+{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../M-img/showroom.jpg");
+    color: white;
+    box-shadow: 0px 0px 5px lightseagreen;
+    font-family: monospace;
+}
+.contact h2 
+{
+    margin-top:120px;
+}
+.form-control 
+{
+    background-color:black;
+    opacity: 0.8;
+    border:none;
+    padding-bottom: 10px;
+}
+.send .btn-1
+{
+    background-color: red;
+}
+.map 
+{
+    width: 100%;
+    height: 100%;
+}
+/*-------------------------------//end contact------------------------------------*/
+.mytab ul li 
+{
+    list-style-type: none;
+    text-decoration: none;
+}
+.mytab ul li a 
+{
+    background-color:red;
+    opacity:0.8;
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px;
+    font-family: monospace;
+}
+.tab-pane img 
+{
+    width: 100%;
+    height: 450px;
+    border-radius: 5%;
+    margin-top:40px;
+    box-shadow: 0px 0px 0px 0.5px rgb(32, 31, 31);
+}
+.tab-pane h1
+{
+    font-size: 50px;
+    margin-top: 20px;
+    font-style: italic;
+    text-align: center;
+    color:black;
+    text-shadow: 0px 0px 5px white;
+    font-family: monospace;
+}
+.tab-pane p 
+{
+    
+    color:black;
+    font-weight:600;
+    font-family: monospace;
+}
+/*-------------------//end about us----------------------------------*/
+.inner 
+{
+    background-color: black;
+    color:white;
+}
+.inner ul 
+{
+    margin-top: 30px;
+    text-align: center;
+}
+.inner ul li 
+{
+    list-style-type: none;
+    margin-top: 8px;
+}
+/*-----------------------------//end footer-----------------------------------*/
+.blog
+{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../M-img/cont.jpg");
+    font-family: monospace;
+}
+.card img 
+{
+    width:100%;
+    height: 200px;
+}
+.card-body .card-title 
+{
+    color:darkviolet;
+    text-align: center;
+    font-weight: 500;
+}
+.card-body .card-text 
+{
+    font-weight: 500;
+    padding: 0px;
+    color:black;
+    text-align: center;
+}
+@media only screen and (max-width:750px)
+{
+    .carousel-caption 
+    {
+      margin-bottom: 15%;
+    }
+    .carsousel-inner .carousel-caption 
+    {
+        top:0;
+        left: 5%;
+    }
+    h2 
+    {
+        font-size: 37px;
+    }
+    p 
+    {
+        font-size: 18px;
+    }
+    .carousel-caption h2 
+    {
+        font-size: 35px;
+    }
+    .carousel-caption p 
+    {
+        font-size: 18px;
+    }
+    .btn 
+    {
+       margin: 8px;
+        width: 120px;
+        padding: 8px;
+        border-radius:15px;
+        font-size:13px;
+    }
+    .gallery h3
+    {
+        font-size: 18px;
+        text-align: center;
+    }
+    .mytab .tab-pane h1
+    {
+        font-size: 35px;
+    }
+    .view-car 
+    {
+        overflow: hidden;
+    }
+    .view-car .sel 
+    {
+    height: 22px;
+    }
+   .view-car .txt
+   {
+    font-size: 12px;
+   }
+   .view-car .txt label
+   {
+       font-size: 15px;
+   }
+   .view-car .cta-content h3 
+   {
+       font-size: 37px;
+   }
+    .view-car .cta-content p 
+    {
+        font-size: 20px;
+    }
+    .video-content h3 
+   {
+    font-size: 37px;
+   }
+   .video-content p
+   {
+    font-size: 17px;
+   }
+}
+
